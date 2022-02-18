@@ -6,8 +6,13 @@ body {
 }
 
 .parent {
+  display: flex;
+  height: 100vh;
+}
+
+.child {
   width: 40%;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .rainbow-link {
